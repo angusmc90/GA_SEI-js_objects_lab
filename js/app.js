@@ -75,7 +75,7 @@ console.log(album3.albumDetails.released);
   const oldVal = album5.albumDetails.labels[1];
   album5.albumDetails.labels.splice(1,1,oldVal.toUpperCase);
   console.log(album5.albumDetails.labels[1]);
-  
+
   
   const album6 = {
     title: 'True Stories',
@@ -87,8 +87,8 @@ console.log(album3.albumDetails.released);
   };
   
   // Exercise 7:  Assign album6's formats array to a variable named formats
-  
-  
+  let formats = album6.albumDetails.formats;
+  console.log(formats);
   
   
   const album7 = {
