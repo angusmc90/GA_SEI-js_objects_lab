@@ -130,7 +130,6 @@ console.log(talkingHeadsAlbums[5].albumDetails);
   
   
   
-  
   // /********** Don't look below here **********/
   // console.log('=========================== Excercise console.logs =============')
   // console.log('Exercise 1:', title);
