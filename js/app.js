@@ -72,8 +72,8 @@ console.log(album3.albumDetails.released);
   
   // Exercise 6:  Update the value 'emi' within album5's labels array to 'EMI'
   // note to self - toUpperCase method outputs the value in uppercase, but does not reassign album5.albumDetails.labels[1]
-  const oldVal = album5.albumDetails.labels[1];
-  album5.albumDetails.labels.splice(1,1,oldVal.toUpperCase);
+  const oldVal = album5.albumDetails.labels[1].toUpperCase;
+  album5.albumDetails.labels.splice(1,1,oldVal);
   console.log(album5.albumDetails.labels);
 
   
