@@ -8,15 +8,12 @@ const album1 = {
   };
   
   // Exercise 1:  Update the title property of album1 from 'Talking Heads' to 'Talking Heads - 77', then assign that property to a variable named title
-  
   album1.title = "Talking Heads - 77";
   let title = album1.title;
   // testing the assignment works
   console.log(title);
 
   // Exercise 2: Assign the string 'Sire' from album1 to a variable named label
-  
-  
   let label = album1.albumDetails.label;
   console.log(label);
   
@@ -40,14 +37,15 @@ const album1 = {
   };
   
   // Exercise 3: Accessing the string 'LP' from album2's formats array, add it to the end of album3's formats array.
-  
 const fromAlbum2 = album2.albumDetails.formats[0];
 album3.albumDetails.formats.push(fromAlbum2);
+console.log(album3.albumDetails.formats);
   
   
   // Exercise 4:  Update the released property of album3 from a string into a Date object using that string
-  
-  
+ const convertToDate = new Date(album3.albumDetails.released);
+ album3.albumDetails.released = convertToDate;
+console.log(album3.albumDetails.released); 
   
   
   const album4 = {
