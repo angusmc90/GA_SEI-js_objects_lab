@@ -116,7 +116,9 @@ console.log(labels);
   
   
   // Exercise 9:  Using the talkingHeadsAlbums array, assign album7's released property to album6's released property
-  
+const released = talkingHeadsAlbums[6].albumDetails.released;
+talkingHeadsAlbums[5].albumDetails.released = released;
+console.log(talkingHeadsAlbums[5].albumDetails);
   
   
   
