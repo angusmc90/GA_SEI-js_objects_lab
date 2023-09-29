@@ -74,7 +74,7 @@ console.log(album3.albumDetails.released);
   // note to self - toUpperCase method outputs the value in uppercase, but does not reassign album5.albumDetails.labels[1]
   const oldVal = album5.albumDetails.labels[1];
   album5.albumDetails.labels.splice(1,1,oldVal.toUpperCase);
-  console.log(album5.albumDetails.labels[1]);
+  console.log(album5.albumDetails.labels);
 
   
   const album6 = {
