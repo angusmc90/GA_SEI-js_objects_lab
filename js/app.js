@@ -114,7 +114,7 @@ console.log(album3.albumDetails.released);
   ];
   
   // Exercise 8:  Using the talkingHeadsAlbums array, assign album5's labels property to a variable named labels
-const labels = talkingHeadsAlbums[4].albumDetails.label;
+const labels = talkingHeadsAlbums[4].albumDetails.labels;
 console.log(labels);
   
   
