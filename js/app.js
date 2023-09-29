@@ -57,8 +57,8 @@ console.log(album3.albumDetails.released);
   };
   
   // Exercise 5:  Add a property named label with the value 'Sire' to album4's albumDetails property
-  
-  
+  album4.albumDetails.label='Sire';
+  console.log(album4.albumDetails.label);
   
   
   const album5 = {
